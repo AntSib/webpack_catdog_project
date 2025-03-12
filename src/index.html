@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 class="text-center fancy-text">
+                Котопёс
+                <hr>
+                <small class="text-body-secondar">Мы заботимся о животных и отдаём их в хорошие руки</small>
+            </h1>
+        </header>
+    </div>
+    <div class="row">
+        <div class="col col-xs-12 col-sm-12 col-md-12 col-lg-6">
+            <h2>Карта</h2>
+            <p>Южносохолинск, адрес</p>
+            <div id="map">
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ae2b1ec8ebb723857581cf38b9a13cc6c79afa94d713dd1f23e925b0e1a016e04&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+            </div>
+        </div>
+        <div class="col col-xs-12 col-sm-12 col-md-12 col-lg-6">
+            <h2>Кто мы?</h2>
+            <img src="https://ir.ozone.ru/s3/multimedia-d/c1000/6557975065.jpg" style="width: 100px;" class="img-fluid" alt="Валик котопёс">
+            <p class="lead">
+                This is a lead paragraph. It stands out from regular paragraphs.
+            </p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam architecto sed possimus hic incidunt, animi
+                officiis dolor deserunt in ab aut laudantium esse, neque qui ad accusamus voluptate dicta aliquid?
+            </p>
+        </div>
+        <div class="row mt-5">
+            <div class="col text-center">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Оставить заявку
+                </button>
+            </div>
+        </div>
+        <footer>
+            <hr>
+            <p class="small">
+                Copyright 2025
+            </p>
+        </footer>
+    </div>
+    
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Оставить заявку</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Электронная почта</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Текст заявки</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Отмена</button>
+            <button type="button" class="btn btn-primary">Отправить!</button>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+
+</html>

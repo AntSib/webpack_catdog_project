@@ -1,0 +1,17 @@
+@use "~bootstrap/scss/bootstrap";
+
+
+
+.btn-secondary-bg {
+  background-color: #a15600;
+  border-color: #ffa237;
+}
+
+.fancy-text {
+    font-size: 50px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #ffb114, #d88200);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
