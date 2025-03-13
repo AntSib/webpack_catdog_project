@@ -1,0 +1,43 @@
+{
+  "name": "project-webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.3",
+    "luxon": "^3.5.0"
+  },
+  "devDependencies": {
+    "@webpack-cli/generators": "^2.5.0",
+    "autoprefixer": "^10.4.21",
+    "css-loader": "^7.1.2",
+    "gh-pages": "^6.3.0",
+    "html-webpack-plugin": "^5.6.3",
+    "postcss-loader": "^8.1.1",
+    "sass": "^1.85.1",
+    "sass-loader": "^16.0.5",
+    "serve": "^14.2.4",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntSib/webpack_catdog_project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AntSib/webpack_catdog_project/issues"
+  },
+  "homepage": "https://github.com/AntSib/webpack_catdog_project#readme",
+  "description": ""
+}
